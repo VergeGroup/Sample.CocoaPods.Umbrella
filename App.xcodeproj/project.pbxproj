@@ -11,7 +11,53 @@
 		4B13749E259360320002E85F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B13749D259360320002E85F /* ContentView.swift */; };
 		4B1374A0259360330002E85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B13749F259360330002E85F /* Assets.xcassets */; };
 		4B1374A3259360330002E85F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B1374A2259360330002E85F /* Preview Assets.xcassets */; };
+		4B1374B4259360450002E85F /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1374B2259360450002E85F /* Service.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1374B7259360450002E85F /* Service.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1374B0259360450002E85F /* Service.framework */; };
+		4B1374B8259360450002E85F /* Service.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1374B0259360450002E85F /* Service.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B1374C62593604E0002E85F /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B1374C42593604E0002E85F /* Utility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B1374C92593604E0002E85F /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1374C22593604E0002E85F /* Utility.framework */; };
+		4B1374CA2593604E0002E85F /* Utility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1374C22593604E0002E85F /* Utility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B1374CF259360600002E85F /* Utility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1374C22593604E0002E85F /* Utility.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B1374B5259360450002E85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B137490259360320002E85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B1374AF259360450002E85F;
+			remoteInfo = Service;
+		};
+		4B1374C72593604E0002E85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B137490259360320002E85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B1374C12593604E0002E85F;
+			remoteInfo = Utility;
+		};
+		4B1374D1259360600002E85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B137490259360320002E85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B1374C12593604E0002E85F;
+			remoteInfo = Utility;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B1374BC259360450002E85F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				4B1374B8259360450002E85F /* Service.framework in Embed Frameworks */,
+				4B1374CA2593604E0002E85F /* Utility.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4B137498259360320002E85F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +66,33 @@
 		4B13749F259360330002E85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B1374A2259360330002E85F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4B1374A4259360330002E85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1374B0259360450002E85F /* Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1374B2259360450002E85F /* Service.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		4B1374B3259360450002E85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B1374C22593604E0002E85F /* Utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Utility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1374C42593604E0002E85F /* Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		4B1374C52593604E0002E85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4B137495259360320002E85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1374B7259360450002E85F /* Service.framework in Frameworks */,
+				4B1374C92593604E0002E85F /* Utility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1374AD259360450002E85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1374CF259360600002E85F /* Utility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1374BF2593604E0002E85F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				4B13749A259360320002E85F /* App */,
+				4B1374B1259360450002E85F /* Service */,
+				4B1374C32593604E0002E85F /* Utility */,
 				4B137499259360320002E85F /* Products */,
+				4B1374CE259360600002E85F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				4B137498259360320002E85F /* App.app */,
+				4B1374B0259360450002E85F /* Service.framework */,
+				4B1374C22593604E0002E85F /* Utility.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,7 +143,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		4B1374B1259360450002E85F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4B1374B2259360450002E85F /* Service.h */,
+				4B1374B3259360450002E85F /* Info.plist */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4B1374C32593604E0002E85F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4B1374C42593604E0002E85F /* Utility.h */,
+				4B1374C52593604E0002E85F /* Info.plist */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4B1374CE259360600002E85F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B1374AB259360450002E85F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1374B4259360450002E85F /* Service.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1374BD2593604E0002E85F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B1374C62593604E0002E85F /* Utility.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4B137497259360320002E85F /* App */ = {
@@ -79,15 +197,55 @@
 				4B137494259360320002E85F /* Sources */,
 				4B137495259360320002E85F /* Frameworks */,
 				4B137496259360320002E85F /* Resources */,
+				4B1374BC259360450002E85F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4B1374B6259360450002E85F /* PBXTargetDependency */,
+				4B1374C82593604E0002E85F /* PBXTargetDependency */,
 			);
 			name = App;
 			productName = App;
 			productReference = 4B137498259360320002E85F /* App.app */;
 			productType = "com.apple.product-type.application";
+		};
+		4B1374AF259360450002E85F /* Service */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1374B9259360450002E85F /* Build configuration list for PBXNativeTarget "Service" */;
+			buildPhases = (
+				4B1374AB259360450002E85F /* Headers */,
+				4B1374AC259360450002E85F /* Sources */,
+				4B1374AD259360450002E85F /* Frameworks */,
+				4B1374AE259360450002E85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B1374D2259360600002E85F /* PBXTargetDependency */,
+			);
+			name = Service;
+			productName = Service;
+			productReference = 4B1374B0259360450002E85F /* Service.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B1374C12593604E0002E85F /* Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B1374CB2593604E0002E85F /* Build configuration list for PBXNativeTarget "Utility" */;
+			buildPhases = (
+				4B1374BD2593604E0002E85F /* Headers */,
+				4B1374BE2593604E0002E85F /* Sources */,
+				4B1374BF2593604E0002E85F /* Frameworks */,
+				4B1374C02593604E0002E85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Utility;
+			productName = Utility;
+			productReference = 4B1374C22593604E0002E85F /* Utility.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +257,12 @@
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					4B137497259360320002E85F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					4B1374AF259360450002E85F = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					4B1374C12593604E0002E85F = {
 						CreatedOnToolsVersion = 12.3;
 					};
 				};
@@ -117,6 +281,8 @@
 			projectRoot = "";
 			targets = (
 				4B137497259360320002E85F /* App */,
+				4B1374AF259360450002E85F /* Service */,
+				4B1374C12593604E0002E85F /* Utility */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +294,20 @@
 			files = (
 				4B1374A3259360330002E85F /* Preview Assets.xcassets in Resources */,
 				4B1374A0259360330002E85F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1374AE259360450002E85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1374C02593604E0002E85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +323,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4B1374AC259360450002E85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B1374BE2593604E0002E85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B1374B6259360450002E85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B1374AF259360450002E85F /* Service */;
+			targetProxy = 4B1374B5259360450002E85F /* PBXContainerItemProxy */;
+		};
+		4B1374C82593604E0002E85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B1374C12593604E0002E85F /* Utility */;
+			targetProxy = 4B1374C72593604E0002E85F /* PBXContainerItemProxy */;
+		};
+		4B1374D2259360600002E85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B1374C12593604E0002E85F /* Utility */;
+			targetProxy = 4B1374D1259360600002E85F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		4B1374A5259360330002E85F /* Debug */ = {
@@ -304,6 +516,110 @@
 			};
 			name = Release;
 		};
+		4B1374BA259360450002E85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Service/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.muukii.Service;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B1374BB259360450002E85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Service/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.muukii.Service;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B1374CC2593604E0002E85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Utility/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.muukii.Utility;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B1374CD2593604E0002E85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Utility/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = app.muukii.Utility;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -321,6 +637,24 @@
 			buildConfigurations = (
 				4B1374A8259360330002E85F /* Debug */,
 				4B1374A9259360330002E85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1374B9259360450002E85F /* Build configuration list for PBXNativeTarget "Service" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1374BA259360450002E85F /* Debug */,
+				4B1374BB259360450002E85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B1374CB2593604E0002E85F /* Build configuration list for PBXNativeTarget "Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B1374CC2593604E0002E85F /* Debug */,
+				4B1374CD2593604E0002E85F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
