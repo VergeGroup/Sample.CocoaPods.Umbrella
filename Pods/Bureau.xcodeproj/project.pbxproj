@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		242C2A4AD79F345E241AE4D5C1C91602 /* Bureau-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FB1602511E553EE76A1B15A7BE37609 /* Bureau-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A4E11F356DE6E409ABFA7D212B26C12 /* BureauInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883225856E6D877B74B13F9EEE087C01 /* BureauInputViewController.swift */; };
+		7C46F8BCDCEDE08060F706E72224EF94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1F1264AFA1B45D55CEF38DBB557C5B /* Foundation.framework */; };
+		82C6184531143ABB59C864DF33FB61AA /* BureauController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C6B288D71F8CFAE97B0D2693E9C9B /* BureauController.swift */; };
+		98C4ECE3333799FA2B0B3731C742F072 /* BureauContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5A91A3DACE5FF90F1E376F5684C83C /* BureauContext.swift */; };
+		B925770C4EAC8638685D0242A0D05635 /* BureauInputContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6017E14263A896F234CC2FB9A7A5F66 /* BureauInputContainerView.swift */; };
+		D9D2ACE3EB25ED24A8E74407D06B3B10 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12F7EC0A009E0C853735DA499BE9ACE /* UIKit.framework */; };
+		E3D1239F611D29E639FFC32A3CF1F6CF /* Bureau-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D647FABB59D2533048175CF86BBBCD6E /* Bureau-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D5A91A3DACE5FF90F1E376F5684C83C /* BureauContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BureauContext.swift; path = Bureau/BureauContext.swift; sourceTree = "<group>"; };
+		369C6B288D71F8CFAE97B0D2693E9C9B /* BureauController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BureauController.swift; path = Bureau/BureauController.swift; sourceTree = "<group>"; };
+		3C9D70833732DD3CE24C01584BF00CE0 /* Bureau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bureau.release.xcconfig; sourceTree = "<group>"; };
+		4F1F1264AFA1B45D55CEF38DBB557C5B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FB1602511E553EE76A1B15A7BE37609 /* Bureau-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bureau-umbrella.h"; sourceTree = "<group>"; };
+		7EFC5521EF73B0E5274CB04389064BB4 /* Bureau-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bureau-prefix.pch"; sourceTree = "<group>"; };
+		883225856E6D877B74B13F9EEE087C01 /* BureauInputViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BureauInputViewController.swift; path = Bureau/BureauInputViewController.swift; sourceTree = "<group>"; };
+		9C5D926EB841D35C00F8D06EA59274F6 /* Bureau-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Bureau-Info.plist"; sourceTree = "<group>"; };
+		C84515649E7722FC595AD4AFC453DFD9 /* Bureau.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bureau.debug.xcconfig; sourceTree = "<group>"; };
+		D647FABB59D2533048175CF86BBBCD6E /* Bureau-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bureau-dummy.m"; sourceTree = "<group>"; };
+		DEE9AD4558672DEAE6A54E8229CBD4C2 /* Bureau.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Bureau.modulemap; sourceTree = "<group>"; };
+		E12F7EC0A009E0C853735DA499BE9ACE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F6017E14263A896F234CC2FB9A7A5F66 /* BureauInputContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BureauInputContainerView.swift; path = Bureau/BureauInputContainerView.swift; sourceTree = "<group>"; };
+		F62F92AD9DCFD1A8BB55CF9027DFB221 /* Bureau.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bureau.framework; path = Bureau.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F600AEB197881AAF8463352A40F24319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C46F8BCDCEDE08060F706E72224EF94 /* Foundation.framework in Frameworks */,
+				D9D2ACE3EB25ED24A8E74407D06B3B10 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44EA0E9815BFE9876C646FAB6EDAE323 /* Bureau */ = {
+			isa = PBXGroup;
+			children = (
+				1D5A91A3DACE5FF90F1E376F5684C83C /* BureauContext.swift */,
+				369C6B288D71F8CFAE97B0D2693E9C9B /* BureauController.swift */,
+				F6017E14263A896F234CC2FB9A7A5F66 /* BureauInputContainerView.swift */,
+				883225856E6D877B74B13F9EEE087C01 /* BureauInputViewController.swift */,
+				58563C4D6572CF2E6813FA8A65A3E727 /* Support Files */,
+			);
+			name = Bureau;
+			path = Bureau;
+			sourceTree = "<group>";
+		};
+		58563C4D6572CF2E6813FA8A65A3E727 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEE9AD4558672DEAE6A54E8229CBD4C2 /* Bureau.modulemap */,
+				D647FABB59D2533048175CF86BBBCD6E /* Bureau-dummy.m */,
+				9C5D926EB841D35C00F8D06EA59274F6 /* Bureau-Info.plist */,
+				7EFC5521EF73B0E5274CB04389064BB4 /* Bureau-prefix.pch */,
+				6FB1602511E553EE76A1B15A7BE37609 /* Bureau-umbrella.h */,
+				C84515649E7722FC595AD4AFC453DFD9 /* Bureau.debug.xcconfig */,
+				3C9D70833732DD3CE24C01584BF00CE0 /* Bureau.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bureau";
+			sourceTree = "<group>";
+		};
+		D1D914E897739751336AFC0EE245BBC1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4F1F1264AFA1B45D55CEF38DBB557C5B /* Foundation.framework */,
+				E12F7EC0A009E0C853735DA499BE9ACE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D6786E9CD8383DD3AB7EC1E0B7C05FC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1D914E897739751336AFC0EE245BBC1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED1F2F80C2BFA57BD7A39D2FC2877B3C = {
+			isa = PBXGroup;
+			children = (
+				44EA0E9815BFE9876C646FAB6EDAE323 /* Bureau */,
+				D6786E9CD8383DD3AB7EC1E0B7C05FC9 /* Frameworks */,
+				F5E21AADE7A3FC2EAFDA2093FC373205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E21AADE7A3FC2EAFDA2093FC373205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F62F92AD9DCFD1A8BB55CF9027DFB221 /* Bureau.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		478A84C0E77323DB27DEA43E01FFB2C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242C2A4AD79F345E241AE4D5C1C91602 /* Bureau-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4C33E445CF0D2271BF3EBAE886F8558 /* Bureau */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 683ABA2B80107FE4C8ECC391DA7BB2C8 /* Build configuration list for PBXNativeTarget "Bureau" */;
+			buildPhases = (
+				478A84C0E77323DB27DEA43E01FFB2C2 /* Headers */,
+				06EDE96FFDC123295C1995097D16B363 /* Sources */,
+				F600AEB197881AAF8463352A40F24319 /* Frameworks */,
+				195BE82310B158553DFCE4ED353433E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bureau;
+			productName = Bureau;
+			productReference = F62F92AD9DCFD1A8BB55CF9027DFB221 /* Bureau.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9690C9DF36145381823825ADF5624BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 1468AC8BD39A3B6B4B42005D445B01FA /* Build configuration list for PBXProject "Bureau" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED1F2F80C2BFA57BD7A39D2FC2877B3C;
+			productRefGroup = F5E21AADE7A3FC2EAFDA2093FC373205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C33E445CF0D2271BF3EBAE886F8558 /* Bureau */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		195BE82310B158553DFCE4ED353433E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06EDE96FFDC123295C1995097D16B363 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3D1239F611D29E639FFC32A3CF1F6CF /* Bureau-dummy.m in Sources */,
+				98C4ECE3333799FA2B0B3731C742F072 /* BureauContext.swift in Sources */,
+				82C6184531143ABB59C864DF33FB61AA /* BureauController.swift in Sources */,
+				B925770C4EAC8638685D0242A0D05635 /* BureauInputContainerView.swift in Sources */,
+				3A4E11F356DE6E409ABFA7D212B26C12 /* BureauInputViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2B4AE8A5F7910C489FE7A83009E2639F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9D70833732DD3CE24C01584BF00CE0 /* Bureau.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bureau/Bureau-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bureau/Bureau-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Bureau/Bureau.modulemap";
+				PRODUCT_MODULE_NAME = Bureau;
+				PRODUCT_NAME = Bureau;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		565A4F8EB97EA9BD7377C81AD7AD4A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9C903CBFE050B4CCB4F44D167BAB08AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B73327773C5747CD546D67021290AC57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C84515649E7722FC595AD4AFC453DFD9 /* Bureau.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Bureau/Bureau-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bureau/Bureau-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Bureau/Bureau.modulemap";
+				PRODUCT_MODULE_NAME = Bureau;
+				PRODUCT_NAME = Bureau;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1468AC8BD39A3B6B4B42005D445B01FA /* Build configuration list for PBXProject "Bureau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				565A4F8EB97EA9BD7377C81AD7AD4A01 /* Debug */,
+				9C903CBFE050B4CCB4F44D167BAB08AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		683ABA2B80107FE4C8ECC391DA7BB2C8 /* Build configuration list for PBXNativeTarget "Bureau" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73327773C5747CD546D67021290AC57 /* Debug */,
+				2B4AE8A5F7910C489FE7A83009E2639F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9690C9DF36145381823825ADF5624BF5 /* Project object */;
+}

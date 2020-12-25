@@ -1,0 +1,6 @@
+framework module Bureau {
+  umbrella header "Bureau-umbrella.h"
+
+  export *
+  module * { export * }
+}
