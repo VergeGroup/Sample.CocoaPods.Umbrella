@@ -1,28 +1,119 @@
 PODS:
   - Alamofire (5.4.0)
   - Bureau (0.1.1)
+  - CocoaLumberjack (3.7.0):
+    - CocoaLumberjack/Core (= 3.7.0)
+  - CocoaLumberjack/Core (3.7.0)
+  - EasyPeasy (1.9.0)
+  - InteractiveZoomDriver (1.2.2)
+  - lottie-ios (3.1.9)
+  - MagazineLayout (1.6.3)
+  - MBProgressHUD (1.2.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
   - NextGrowingTextView (1.6.1)
+  - Nuke (9.2.0)
+  - Pageboy (3.6.2)
+  - Reusable (4.1.1):
+    - Reusable/Storyboard (= 4.1.1)
+    - Reusable/View (= 4.1.1)
+  - Reusable/Storyboard (4.1.1)
+  - Reusable/View (4.1.1)
   - Reveal-SDK (27)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxFuture (4.0.1):
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - StackScrollView (1.6.1)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+  - Tabman (2.9.1):
+    - Pageboy (~> 3.6.0)
+  - TypedTextAttributes (1.1.0)
+  - ViewSizeCalculator (1.0.0)
 
 DEPENDENCIES:
   - Alamofire
   - Bureau
+  - CocoaLumberjack
+  - EasyPeasy
+  - InteractiveZoomDriver
+  - lottie-ios
+  - MagazineLayout
+  - MBProgressHUD
+  - Moya
   - NextGrowingTextView
+  - Nuke
+  - Pageboy
+  - Reusable
   - Reveal-SDK
+  - RxCocoa
+  - RxFuture
+  - RxRelay
+  - RxSwift
+  - StackScrollView
+  - SVGKit
+  - Tabman
+  - TypedTextAttributes
+  - ViewSizeCalculator
 
 SPEC REPOS:
   trunk:
     - Alamofire
     - Bureau
+    - CocoaLumberjack
+    - EasyPeasy
+    - InteractiveZoomDriver
+    - lottie-ios
+    - MagazineLayout
+    - MBProgressHUD
+    - Moya
     - NextGrowingTextView
+    - Nuke
+    - Pageboy
+    - Reusable
     - Reveal-SDK
+    - RxCocoa
+    - RxFuture
+    - RxRelay
+    - RxSwift
+    - StackScrollView
+    - SVGKit
+    - Tabman
+    - TypedTextAttributes
+    - ViewSizeCalculator
 
 SPEC CHECKSUMS:
   Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
   Bureau: a90a1f6dd1faff8896f0068c176d839146d0e544
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  EasyPeasy: 19a84ef8f8bbcf925b9fecc29d1d78b7dab96718
+  InteractiveZoomDriver: 188381d69ef152a111b3ccf10f9383296720ad2a
+  lottie-ios: 3a3758ef5a008e762faec9c9d50a39842f26d124
+  MagazineLayout: 159da0d4d874e04e6b17e580b990cccd00328c5b
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
   NextGrowingTextView: 3b34f8f10b49b10bd58b61c476ca9b1c58cad380
+  Nuke: 1394e48b0940e01dd20f52ac56b121ab154e370d
+  Pageboy: cf121b9dd48c63f3f281b2a9ec93d02e0f23879b
+  Reusable: 53a9acf5c536f229b31b5865782414b508252ddb
   Reveal-SDK: 306e2880395ee396f5a8b4c485c3a86dd19866c7
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxFuture: f21922d2bd2a9762a10c668f3089bf4aaafa6c02
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  StackScrollView: 147b641af68be5e230d291b898218b9386cf5329
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+  Tabman: 085d89c65be9e883629bdaf5b1453a6397e57846
+  TypedTextAttributes: fc3a5a8c4a7a28304446f8c5e8af146d11c2163a
+  ViewSizeCalculator: 6c9ccc164281ebae34e8d3d1cb38809f5a13548e
 
-PODFILE CHECKSUM: 3ca180261b5d51533d0f46fde09a8b472fa9803b
+PODFILE CHECKSUM: 8ee8d484156ca952ffe853e81f28d5c3c4cd45fc
 
 COCOAPODS: 1.10.0
