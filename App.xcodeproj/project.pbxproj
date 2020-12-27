@@ -27,6 +27,7 @@
 		4B35AA782595EB3900B49857 /* Dummy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35AA772595EB3900B49857 /* Dummy.swift */; };
 		4B35AA802595EBF100B49857 /* Umbrella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B35A7A02595DF5300B49857 /* Umbrella.framework */; };
 		4B35AA812595EBF200B49857 /* Umbrella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B35A7A02595DF5300B49857 /* Umbrella.framework */; };
+		4B35B7EA2595FC1F00B49857 /* Code.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B35B7E92595FC1F00B49857 /* Code.swift */; };
 		87D3715932B346ECFC4A99A5 /* Pods_Umbrella.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D17CCABCB9E09ACCEDE0CF /* Pods_Umbrella.framework */; };
 /* End PBXBuildFile section */
 
@@ -97,6 +98,7 @@
 		4B35A7A22595DF5300B49857 /* Umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Umbrella.h; sourceTree = "<group>"; };
 		4B35A7A32595DF5300B49857 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B35AA772595EB3900B49857 /* Dummy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dummy.swift; sourceTree = "<group>"; };
+		4B35B7E92595FC1F00B49857 /* Code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Code.swift; sourceTree = "<group>"; };
 		5E9E107BBA328138EF90D9F6 /* Pods_Service.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Service.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC8772E9AF9F96615ADD148 /* Pods-App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App.release.xcconfig"; path = "Target Support Files/Pods-App/Pods-App.release.xcconfig"; sourceTree = "<group>"; };
 		94D17CCABCB9E09ACCEDE0CF /* Pods_Umbrella.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Umbrella.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,6 +210,7 @@
 			children = (
 				4B1374C42593604E0002E85F /* Utility.h */,
 				4B1374C52593604E0002E85F /* Info.plist */,
+				4B35B7E92595FC1F00B49857 /* Code.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -376,6 +379,7 @@
 					};
 					4B1374C12593604E0002E85F = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 					4B35A79F2595DF5300B49857 = {
 						CreatedOnToolsVersion = 12.3;
@@ -566,6 +570,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B35B7EA2595FC1F00B49857 /* Code.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -823,6 +828,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F3F6564DDDDADEEDC23093E9 /* Pods-Utility.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -839,6 +845,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = app.muukii.Utility;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -850,6 +857,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B83F30771C431B34923235F /* Pods-Utility.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

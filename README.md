@@ -25,9 +25,8 @@ pre_install do |installer|
   static_targets = umbrella_target.pod_targets
 
   static_targets.each { |target|
-    pp target
+    Pod::UI.print "Static framework => #{target.name}"
     def target.build_type
-      puts "Call"
       Pod::BuildType.static_framework
     end
 
@@ -63,7 +62,7 @@ post_install do |installer|
         # puts "💥 Integrate with Umbrella =>" + aggregate_target.name
 
         static_targets.each { |target|
-          # puts "  🎫 Remove linking => " + target.product_module_name
+          puts "🎫 Remove linking => " + target.product_module_name
           config_file.frameworks.delete(target.product_module_name)
         }
 
