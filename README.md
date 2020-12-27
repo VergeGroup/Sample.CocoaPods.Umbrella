@@ -1,6 +1,15 @@
 # Sample.CocoaPods.Umbrella
 
-A sample project that uses umbrella framework to merge multiple dylibs.
+A sample project that uses a dyanmic framework that links multiple static frameworks from CocoaPods.
+
+## What's this?
+
+Regarding [Reducing Your App's Launch Time](https://developer.apple.com/documentation/xcode/improving_your_app_s_performance/reducing_your_app_s_launch_time), in In the case of using a bunch of dynamic frameworks, App launch time might be slow.  
+In this case, merging multiple frameworks into a large dynamic framework solves this issue.
+
+This project shows you how to create a merged dynamic framework with building pods as a static-framework.
+
+(From iOS13, Thanks to Apple unlocked the limitation of dyld3 for the third-party application, we don't need to do this approach actually in most of the cases.)
 
 ## Strucuture
 
