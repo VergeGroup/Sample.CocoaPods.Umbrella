@@ -2,6 +2,10 @@
 
 A sample project that uses a dyanmic framework that links multiple static frameworks from CocoaPods.
 
+Updates:
+  - Here is a plugin for CocoaPods to build as static-library
+  - https://github.com/joncardasis/cocoapods-user-defined-build-types
+
 ## What's this?
 
 Regarding [Reducing Your App's Launch Time](https://developer.apple.com/documentation/xcode/improving_your_app_s_performance/reducing_your_app_s_launch_time), in In the case of using a bunch of dynamic frameworks, App launch time might be slow.  
